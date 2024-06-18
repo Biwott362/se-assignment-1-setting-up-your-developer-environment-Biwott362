@@ -5,36 +5,113 @@ Setup Development Environment
 
 #Assignment: Setting Up Your Developer Environment
 
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
-
-#Tasks:
-
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
-
-2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
-
-4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
-
-5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
-
-6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
-
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
-
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
-
-9. Document Your Setup:
+  Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+
+
+    Comprehensive Developer Environment Setup Document
+    This document outlines the steps taken to set up a developer environment on Windows 11, including the installation of necessary software and configurations. It also includes customizations and troubleshooting steps encountered during the process.
+
+      1. Install Windows 11
+Steps:
+Visited the Windows 11 Download Page.
+Clicked "Download Now" to get the Installation Assistant.
+Ran the Installation Assistant and followed the on-screen instructions to upgrade to Windows 11.
+Troubleshooting:
+Issue: Compatibility error during installation.
+Resolution: Ensured all Windows updates were installed and checked hardware requirements.
+
+      2. Install Visual Studio Code
+Steps:
+Visited the Visual Studio Code Download Page.
+Selected Windows as the operating system and downloaded the installer.
+Ran the installer and followed the prompts to complete the installation.
+Customizations:
+Enabled settings sync to keep settings, extensions, and themes consistent across devices.
+Troubleshooting:
+Issue: Extensions not loading.
+Resolution: Restarted Visual Studio Code and reinstalled the extensions.
+
+        3. Set Up Version Control System
+   Install Git
+Visited the Git Download Page.
+Downloaded the Git installer for Windows.
+Ran the installer and followed the prompts, keeping the default settings.
+   Configure Git
+Opened Git Bash.
+Set the username and email:
+Create a GitHub Account
+Visited GitHub.
+Signed up for a new account.
+Initialize a Git Repository
+Created a new folder for the project.
+Opened Git Bash in that folder.
+Created a README file and made the first commit:
+Troubleshooting:
+Issue: SSH key not recognized by GitHub.
+Resolution: Generated a new SSH key and added it to the GitHub account.
+      4. Install Python
+Steps:
+Visited the Python Download Page.
+Downloaded the latest version of Python.
+Ran the installer, ensuring to check the box to add Python to PATH.
+Completed the installation.
+Troubleshooting:
+Issue: Python not recognized in the command line.
+Resolution: Verified the PATH variable included Python and restarted the command line.
+       5. Install Package Managers
+Verify pip Installation
+pip is automatically installed with Python. Verified the installation by running:
+pip --version
+Troubleshooting:
+Issue: pip not found.
+Resolution: Reinstalled Python, ensuring the option to install pip was checked.
+      6. Install MySQL
+Steps:
+Visited the MySQL Download Page.
+Downloaded the MySQL Installer.
+Ran the installer and followed the prompts to install MySQL.
+Troubleshooting:
+Issue: MySQL service not starting.
+Resolution: Checked for port conflicts and ensured the MySQL service was set to start automatically.
+     7. Optional: Install Docker
+Steps:
+Visited the Docker Desktop Download Page.
+Downloaded Docker Desktop for Windows.
+Ran the installer and followed the prompts to complete the installation.
+Troubleshooting:
+Issue: Docker not running due to WSL 2 installation issue.
+Resolution: Installed the WSL 2 Linux kernel update package for Windows.
+       8. Explore Extensions and Plugins for Visual Studio Code
+Steps:
+Opened Visual Studio Code.
+Went to the Extensions view by clicking the Extensions icon in the Activity Bar on the side.
+Searched for and installed useful extensions:
+Python (for Python development)
+GitLens (for Git integration)
+Prettier (for code formatting)
+ESLint (for JavaScript linting)
+Customizations:
+Configured settings for each extension to match project requirements.
+
+   During the setup process, several challenges were encountered:
+Issue: Compatibility error during Windows 11 installation.
+Resolution: Ensured all Windows updates were installed and verified hardware requirements.
+Issue: Extensions not loading in Visual Studio Code.
+Resolution: Restarted Visual Studio Code and reinstalled the extensions.
+Issue: SSH key not recognized by GitHub.
+Resolution: Generated a new SSH key and added it to the GitHub account.
+Issue: Python not recognized in the command line.
+Resolution: Verified the PATH variable included Python and restarted the command line.
+Issue: pip not found.
+Resolution: Reinstalled Python, ensuring the option to install pip was checked.
+Issue: MySQL service not starting.
+Resolution: Checked for port conflicts and ensured the MySQL service was set to start automatically.
+Issue: Docker not running due to WSL 2 installation issue.
+Resolution: Installed the WSL 2 Linux kernel update package for Windows.
+
+
+
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
